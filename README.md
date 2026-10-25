@@ -1970,3 +1970,22 @@ journalctl --user -b | grep -i hypr
 ```
 
 These three commands will usually provide the first information needed to diagnose a Hyprland configuration problem.
+# Bilal's dotfiles
+
+Backup of the active Hyprland rice on this machine.
+
+## Layout
+
+- `home/` - user-level shell dotfiles
+- `config/` - selected files from `~/.config`
+- `sddm/` - SDDM configuration needed to select the installed theme
+
+The SDDM theme itself is installed separately as `sddm-astronaut-theme`; this
+repository stores the local configuration that selects it rather than copying
+the third-party theme source.
+
+## Restoring
+
+Copy the contents of `home/` into `~` and `config/` into `~/.config`. Install
+the referenced applications and the `sddm-astronaut-theme` package separately.
+Copy `sddm/sddm.conf.d/theme.conf` to `/etc/sddm.conf.d/theme.conf` as root.

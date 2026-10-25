@@ -1,0 +1,20 @@
+# Machine-specific and generated state
+.DS_Store
+*.log
+*.swp
+*.tmp
+
+# Secrets and private keys
+*.env
+*.key
+*.pem
+id_*
+
+# Local editor and tool state
+.vscode/
+.idea/
+.git/
+
+# Generated compositor backups
+*.old
+*.new

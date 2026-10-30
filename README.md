@@ -5,7 +5,7 @@ display. It includes the compositor, Quickshell panels, SDDM theme selection,
 terminal and launcher themes, GTK styling, scripts, wallpapers, and shell
 configuration.
 
-![Current desktop](screenshots/current-desktop.png)
+![Current desktop](screenshots/Desktop.png)
 
 > This repository is a backup of one machine, not a universal installer.
 > Review paths, monitor names, installed packages, and scripts before applying
